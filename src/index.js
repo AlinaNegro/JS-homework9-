@@ -37,7 +37,7 @@ console.log(`"Нужно бежать со всех ног, чтобы толь�
 const greetings = "Привет";
 const name = "Кот";
 
-const catGreeting = `${greetings}, ${name}`
+const catGreeting = `${greetings + "," + " " + name}`
 
 console.log(catGreeting);
 
