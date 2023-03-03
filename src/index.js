@@ -51,3 +51,11 @@ time -=10;
 console.log(`'Немного не новостей, но событий. Осталось минут: '` + time);
 time = 0;
 console.log(`'Вы приехали. Добро пожаловать в Москву!'`);
+
+//Задание 8
+const fahrenheit = 451;
+const celsius = (fahrenheit - 32) / 1.8;
+
+const degrees = `${fahrenheit} градус по Фаренгейту - это ${celsius} градуса по Цельсию.`;
+
+console.log(degrees)
