@@ -59,3 +59,17 @@ const celsius = (fahrenheit - 32) / 1.8;
 const degrees = `${fahrenheit} градус по Фаренгейту - это ${celsius} градуса по Цельсию.`;
 
 console.log(degrees)
+
+//Задание 9 (дополнительное)
+
+let interestRate = 18.5;
+const deposit = '30000';
+const growth = '150';
+const currency = 'руб';
+
+let message;
+
+console.log(`Ваш депозит на начало расчетного периода составлял ${deposit + " " + currency}`); // Ваш депозит на начало расчетного периода составлял 30000 руб
+console.log(`Согласно вашему тарифу, вам была присвоена ставка ${interestRate}%`); // Согласно вашему тарифу, вам была присвоена ставка 18.5%
+console.log(`К концу расчетного прирост составил ${growth + " " + currency} и на данный момент ваш депозит составляет ${Number(deposit) + Number(growth) + " " +  currency}`); // К концу расчетного прирост составил 150 руб и на данный момент ваш депозит составляет 30150 руб
+
