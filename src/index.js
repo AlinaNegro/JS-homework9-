@@ -30,3 +30,14 @@ const b = 2**5;
 
 console.log(b)
 
+//Задание 5
+console.log(`"Нужно бежать со всех ног, чтобы только оставаться на месте, а чтобы куда-то попасть, надо бежать как минимум вдвое быстрее!"`)
+
+//Задание 6
+const greetings = "Привет";
+const name = "Кот";
+
+const catGreeting = `${greetings}, ${name}`
+
+console.log(catGreeting);
+
