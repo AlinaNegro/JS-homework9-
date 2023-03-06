@@ -73,3 +73,15 @@ console.log(`Ваш депозит на начало расчетного пер
 console.log(`Согласно вашему тарифу, вам была присвоена ставка ${interestRate}%`); // Согласно вашему тарифу, вам была присвоена ставка 18.5%
 console.log(`К концу расчетного прирост составил ${growth + " " + currency} и на данный момент ваш депозит составляет ${Number(deposit) + Number(growth) + " " +  currency}`); // К концу расчетного прирост составил 150 руб и на данный момент ваш депозит составляет 30150 руб
 
+//Задание 10 (дополнительное)
+
+const sum = document.querySelector('.sum').value;
+const button = document.querySelector('.button');
+const total = document.querySelector('.total');
+
+button.addEventListener('click', () => {
+    const sum = document.querySelector('.sum').value;
+    total.textContent = (`Через год у вас будет ${((sum * 7 * 365 / 365) / 100) + +sum} руб. на счету`); // Через год у вас будет XXX руб. на счету", где вместо ХХХ выведите сколько получится на счету с учетом процентной ставки 7% годовых
+});
+
+console.log();
