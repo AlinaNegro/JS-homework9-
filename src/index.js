@@ -1,5 +1,5 @@
 //Задание 1
-const salaryCleaner = 40000;
+
 const salaryVocalTeacher = 22000;
 
 const salaryTotal = salaryCleaner + salaryVocalTeacher;
